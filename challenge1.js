@@ -61,7 +61,7 @@ function printMax (n1,n2)
     {
 return (n1);
     }
-    else if (n2>n1)
+    else
     {
         return (n2);
     }

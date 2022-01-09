@@ -24,11 +24,11 @@ function isOdd(n) {
   // Your code here
   if (n %2 !=0 )
   {
-    return ("true");
+    return true;
   }
   else 
   {
-    return ("false");
+    return false;
   }
 }
 console.log(isOdd (8));
@@ -44,7 +44,9 @@ console.log(isOdd (8));
  */
 function oddsSmallerThan(n) {
   // Your code here
+  return (n/2)-((n%2)/2);
 }
+console.log(oddsSmallerThan(15));
 
 /**
  * squareOrDouble(n):
@@ -58,6 +60,9 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
+
+  return (isOdd(n) ? n** 2 : n*2 ) ;
 }
+console.log(squareOrDouble(5));
 
 module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
