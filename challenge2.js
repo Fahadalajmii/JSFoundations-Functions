@@ -8,8 +8,9 @@
  */
 function greet(name) {
   // Your code here
+  console.log("hello ",name);
 }
-
+greet("fahad");
 /**
  * isOdd(n):
  * - receives a number n
@@ -21,7 +22,16 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
+  if (n %2 !=0 )
+  {
+    return ("true");
+  }
+  else 
+  {
+    return ("false");
+  }
 }
+console.log(isOdd (8));
 
 /**
  * oddsSmallerThan(n):
