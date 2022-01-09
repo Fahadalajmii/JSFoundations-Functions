@@ -8,7 +8,7 @@
  */
 function greet(name) {
   // Your code here
-  console.log("hello ",name);
+  console.log(`Hello ${name}`);
 }
 greet("fahad");
 /**
@@ -64,5 +64,6 @@ function squareOrDouble(n) {
   return (isOdd(n) ? n** 2 : n*2 ) ;
 }
 console.log(squareOrDouble(5));
+console.log(squareOrDouble(6));
 
 module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
